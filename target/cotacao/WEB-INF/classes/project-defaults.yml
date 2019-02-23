@@ -3,9 +3,9 @@ swarm:
     data-sources:
       apiDS:
         driver-name: postgresql
-        connection-url: jdbc:postgresql://postgresql:5432/sampledb
-        user-name: userHKF
-        password: CKBqfL2TvuHiNwk8
+        connection-url: jdbc:postgresql://10.100.22.189:5432/postgres
+        user-name: webadmin
+        password: RDzloH1ewi
         valid-connection-checker-class-name: org.jboss.jca.adapters.jdbc.extensions.postgres.PostgreSQLValidConnectionChecker
         validate-on-match: true
         background-validation: false
